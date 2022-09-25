@@ -1,5 +1,5 @@
 package com.company;
 
 public interface ICalculate {
-    void calculate();
+    double calculate(double leftNumber, double rightNumber);
 }

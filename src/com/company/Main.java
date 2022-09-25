@@ -3,6 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Calculator operation = new Calculator(5.0,6.0);
+        double result = operation.calculate(new Subtraction());
+
+        System.out.println(result);
+
     }
 }

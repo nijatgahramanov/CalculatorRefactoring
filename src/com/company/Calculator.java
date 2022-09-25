@@ -8,4 +8,9 @@ public class Calculator {
         this.leftNumber = leftNumber;
         this.rightNumber = rightNumber;
     }
+
+    public double calculate(ICalculate operation) {
+       double result =  operation.calculate(this.leftNumber, this.rightNumber);
+        return result;
+    }
 }
